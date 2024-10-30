@@ -1,4 +1,15 @@
+/********************************************************
+Pontificia Universidad Javeriana
 
+Grupo: 
+-David rodriguez
+-Sebastian Rodriguez 
+-Julian Perez
+
+Fecha: 30/10/2024
+Materia: Estructuras de datos
+Tema: Taller 2 Estructuras lineales
+********************************************************/
 
 #include <iostream>
 #include <climits>
