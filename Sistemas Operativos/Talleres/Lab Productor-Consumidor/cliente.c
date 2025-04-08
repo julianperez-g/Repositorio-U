@@ -1,6 +1,6 @@
 /**************************************************************
  * UNIVERSIDAD JAVERIANA
- * Facultad de IngenierÃ­a - Ingenieria de Sistemas
+ * Facultad de Ingenieri­a - Ingenieria de Sistemas
  * Autor: Julian Perez
  * Fecha: 8/4/2025
  * Archivo: cliente.c
@@ -39,7 +39,7 @@ int main() {
         // Leer cadena desde stdin
         fgets(readbuf, sizeof(readbuf), stdin);
 
-        // Eliminar el salto de lÃ­nea al final (opcional)
+        // Eliminar el salto de li­nea al final (opcional)
         readbuf[strcspn(readbuf, "\n")] = '\0';
 
         // Verificar si es "end" para terminar el proceso
@@ -55,7 +55,7 @@ int main() {
         // Leer respuesta del servidor (cadena invertida)
         int read_bytes = read(fd, readbuf, sizeof(readbuf) - 1);
         if (read_bytes > 0) {
-            readbuf[read_bytes] = '\0';  // Asegurar terminaciÃ³n de string
+            readbuf[read_bytes] = '\0';  // Asegurar terminación de string
             printf("Servidor> %s\n", readbuf);
         }
     }
