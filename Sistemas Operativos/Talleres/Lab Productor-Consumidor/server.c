@@ -45,7 +45,7 @@ int main() {
         read_bytes = read(fd, readbuf, sizeof(readbuf) - 1);
         if (read_bytes <= 0) continue;
 
-        readbuf[read_bytes] = '\0';  // Asegurar terminaciÃ³n de string
+        readbuf[read_bytes] = '\0';  // Asegurar terminacion de string
         printf("Servidor> Recibido: \"%s\" (longitud: %d)\n", readbuf, (int)strlen(readbuf));
 
         // Verificar si se debe terminar
