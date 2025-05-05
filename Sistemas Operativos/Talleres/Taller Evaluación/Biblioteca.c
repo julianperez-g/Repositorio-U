@@ -1,11 +1,11 @@
-#**************************************************************
-#         		Pontificia Universidad Javeriana
-#     Autor: Julián Pérez
-#     Fecha: Abril 20255
-#     Materia: Sistemas Operativos
-#     Tema: Taller de Evaluación de Rendimiento
-#    
-#****************************************************************/
+/**************************************************************
+         		Pontificia Universidad Javeriana
+     Autor: Julián Pérez
+     Fecha: Abril 20255
+     Materia: Sistemas Operativos
+     Tema: Taller de Evaluación de Rendimiento
+    
+****************************************************************/
     
 #include "Biblioteca.h"
 #include <stdio.h>
