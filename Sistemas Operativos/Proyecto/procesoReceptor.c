@@ -1,7 +1,7 @@
 /**
  * @file biblioteca.c
  * @brief Sistema de gestión de préstamos y devoluciones de libros para bibliotecas
- * @author Julián Camilo Pérez Gómez, Diego Andrés Martínez Cuervo, Jose David Ontiveros Gutiérrez, Daniel Galviz 
+ * @author Julián Camilo Pérez Gómez, Diego Andrés Martínez Cuervo, Jose David Ontiveros Gutiérrez, Daniel Galvis
  * @date 26/05/2025
  * 
  * Este programa implementa un sistema concurrente para gestionar préstamos,
