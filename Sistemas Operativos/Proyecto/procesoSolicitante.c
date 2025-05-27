@@ -1,8 +1,8 @@
 /**
  * @file cliente_biblioteca.c
  * @brief Cliente para enviar solicitudes al sistema de gestión de biblioteca
- * @author [Tu Nombre]
- * @date [Fecha]
+ * @author Julián Camilo Pérez Gómez, Diego Andrés Martínez Cuervo, Jose David Ontiveros Gutiérrez, Daniel Galviz 
+ * @date 26/05/2025
  * 
  * Este programa permite enviar solicitudes de préstamo (P), devolución (D),
  * renovación (R) o terminación (Q) al sistema de biblioteca a través de un pipe.
