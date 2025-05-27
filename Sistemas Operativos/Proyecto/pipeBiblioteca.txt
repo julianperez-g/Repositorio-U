@@ -1,0 +1,19 @@
+ATENCIÓN: Creación del pipe con nombre (FIFO)
+
+Antes de ejecutar los programas, debes crear el archivo especial llamado "pipeBiblioteca", que funciona como canal de comunicación entre procesos.
+
+Este archivo NO es un archivo de texto ni se debe subir a GitHub.
+
+Para crearlo, abre una terminal en la raíz del proyecto y ejecuta:
+
+    mkfifo pipeBiblioteca
+
+Este comando crea un pipe con nombre que permite que los procesos `solicitante` y `receptor` se comuniquen entre sí.
+
+Si ya existe y está dando errores, puedes eliminarlo con:
+
+    rm pipeBiblioteca
+
+y luego volver a crearlo.
+
+
